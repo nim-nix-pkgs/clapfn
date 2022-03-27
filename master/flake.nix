@@ -11,6 +11,7 @@
   inputs.src-clapfn-master.ref   = "refs/heads/master";
   inputs.src-clapfn-master.owner = "oliversandli";
   inputs.src-clapfn-master.repo  = "clapfn";
+  inputs.src-clapfn-master.dir   = "";
   inputs.src-clapfn-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
